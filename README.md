@@ -1,3 +1,4 @@
+```sh
 photoprism:
     image: photoprism/photoprism:arm64
     depends_on:
@@ -64,3 +65,4 @@ photoprism:
       MARIADB_USER: "photoprism"
       MARIADB_PASSWORD: "insecure"
       MARIADB_ROOT_PASSWORD: "Ph0t0pr1sm"
+```
