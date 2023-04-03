@@ -1,3 +1,8 @@
+
+
+
+https://dl.photoprism.app/docker/armv7/docker-compose.yml
+
 ```sh
 photoprism:
     image: photoprism/photoprism:arm64
