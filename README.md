@@ -3,7 +3,7 @@ photoprism:
     image: photoprism/photoprism:arm64
     depends_on:
       - mariadb
-    Restart: unless-stopped
+    restart: unless-stopped
     security_opt:
       - seccomp:unconfined
       - apparmor:unconfined
